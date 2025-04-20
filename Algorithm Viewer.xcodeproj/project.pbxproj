@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C89D10D2DAF29EC002D6723 /* hw1 iOS 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw1 iOS 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C89D1262DAF29ED002D6723 /* hw1 iOS 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw1 iOS 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C89D1302DAF29ED002D6723 /* hw1 iOS 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw1 iOS 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C89D10D2DAF29EC002D6723 /* Algorithm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C89D1262DAF29ED002D6723 /* Algorithm ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C89D1302DAF29ED002D6723 /* Algorithm ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4C89D1382DAF29ED002D6723 /* Exceptions for "hw1 iOS 2" folder in "hw1 iOS 2" target */ = {
+		4C89D1382DAF29ED002D6723 /* Exceptions for "hw1 iOS 2" folder in "Algorithm Viewer" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 4C89D10C2DAF29EC002D6723 /* hw1 iOS 2 */;
+			target = 4C89D10C2DAF29EC002D6723 /* Algorithm Viewer */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		4C89D10F2DAF29EC002D6723 /* hw1 iOS 2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				4C89D1382DAF29ED002D6723 /* Exceptions for "hw1 iOS 2" folder in "hw1 iOS 2" target */,
+				4C89D1382DAF29ED002D6723 /* Exceptions for "hw1 iOS 2" folder in "Algorithm Viewer" target */,
 			);
 			path = "hw1 iOS 2";
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		4C89D10E2DAF29EC002D6723 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C89D10D2DAF29EC002D6723 /* hw1 iOS 2.app */,
-				4C89D1262DAF29ED002D6723 /* hw1 iOS 2Tests.xctest */,
-				4C89D1302DAF29ED002D6723 /* hw1 iOS 2UITests.xctest */,
+				4C89D10D2DAF29EC002D6723 /* Algorithm Viewer.app */,
+				4C89D1262DAF29ED002D6723 /* Algorithm ViewerTests.xctest */,
+				4C89D1302DAF29ED002D6723 /* Algorithm ViewerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C89D10C2DAF29EC002D6723 /* hw1 iOS 2 */ = {
+		4C89D10C2DAF29EC002D6723 /* Algorithm Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C89D1392DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "hw1 iOS 2" */;
+			buildConfigurationList = 4C89D1392DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "Algorithm Viewer" */;
 			buildPhases = (
 				4C89D1092DAF29EC002D6723 /* Sources */,
 				4C89D10A2DAF29EC002D6723 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				4C89D10F2DAF29EC002D6723 /* hw1 iOS 2 */,
 			);
-			name = "hw1 iOS 2";
+			name = "Algorithm Viewer";
 			packageProductDependencies = (
 			);
 			productName = "hw1 iOS 2";
-			productReference = 4C89D10D2DAF29EC002D6723 /* hw1 iOS 2.app */;
+			productReference = 4C89D10D2DAF29EC002D6723 /* Algorithm Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C89D1252DAF29ED002D6723 /* hw1 iOS 2Tests */ = {
+		4C89D1252DAF29ED002D6723 /* Algorithm ViewerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C89D13E2DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "hw1 iOS 2Tests" */;
+			buildConfigurationList = 4C89D13E2DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "Algorithm ViewerTests" */;
 			buildPhases = (
 				4C89D1222DAF29ED002D6723 /* Sources */,
 				4C89D1232DAF29ED002D6723 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				4C89D1292DAF29ED002D6723 /* hw1 iOS 2Tests */,
 			);
-			name = "hw1 iOS 2Tests";
+			name = "Algorithm ViewerTests";
 			packageProductDependencies = (
 			);
 			productName = "hw1 iOS 2Tests";
-			productReference = 4C89D1262DAF29ED002D6723 /* hw1 iOS 2Tests.xctest */;
+			productReference = 4C89D1262DAF29ED002D6723 /* Algorithm ViewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4C89D12F2DAF29ED002D6723 /* hw1 iOS 2UITests */ = {
+		4C89D12F2DAF29ED002D6723 /* Algorithm ViewerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C89D1412DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "hw1 iOS 2UITests" */;
+			buildConfigurationList = 4C89D1412DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "Algorithm ViewerUITests" */;
 			buildPhases = (
 				4C89D12C2DAF29ED002D6723 /* Sources */,
 				4C89D12D2DAF29ED002D6723 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				4C89D1332DAF29ED002D6723 /* hw1 iOS 2UITests */,
 			);
-			name = "hw1 iOS 2UITests";
+			name = "Algorithm ViewerUITests";
 			packageProductDependencies = (
 			);
 			productName = "hw1 iOS 2UITests";
-			productReference = 4C89D1302DAF29ED002D6723 /* hw1 iOS 2UITests.xctest */;
+			productReference = 4C89D1302DAF29ED002D6723 /* Algorithm ViewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C89D1082DAF29EC002D6723 /* Build configuration list for PBXProject "hw1 iOS 2" */;
+			buildConfigurationList = 4C89D1082DAF29EC002D6723 /* Build configuration list for PBXProject "Algorithm Viewer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C89D10C2DAF29EC002D6723 /* hw1 iOS 2 */,
-				4C89D1252DAF29ED002D6723 /* hw1 iOS 2Tests */,
-				4C89D12F2DAF29ED002D6723 /* hw1 iOS 2UITests */,
+				4C89D10C2DAF29EC002D6723 /* Algorithm Viewer */,
+				4C89D1252DAF29ED002D6723 /* Algorithm ViewerTests */,
+				4C89D12F2DAF29ED002D6723 /* Algorithm ViewerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		4C89D1282DAF29ED002D6723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C89D10C2DAF29EC002D6723 /* hw1 iOS 2 */;
+			target = 4C89D10C2DAF29EC002D6723 /* Algorithm Viewer */;
 			targetProxy = 4C89D1272DAF29ED002D6723 /* PBXContainerItemProxy */;
 		};
 		4C89D1322DAF29ED002D6723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C89D10C2DAF29EC002D6723 /* hw1 iOS 2 */;
+			target = 4C89D10C2DAF29EC002D6723 /* Algorithm Viewer */;
 			targetProxy = 4C89D1312DAF29ED002D6723 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -469,7 +469,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw1 iOS 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hw1 iOS 2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Algorithm Viewer";
 			};
 			name = Debug;
 		};
@@ -487,7 +487,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw1 iOS 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hw1 iOS 2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithm Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Algorithm Viewer";
 			};
 			name = Release;
 		};
@@ -526,7 +526,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C89D1082DAF29EC002D6723 /* Build configuration list for PBXProject "hw1 iOS 2" */ = {
+		4C89D1082DAF29EC002D6723 /* Build configuration list for PBXProject "Algorithm Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C89D13C2DAF29ED002D6723 /* Debug */,
@@ -535,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C89D1392DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "hw1 iOS 2" */ = {
+		4C89D1392DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "Algorithm Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C89D13A2DAF29ED002D6723 /* Debug */,
@@ -544,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C89D13E2DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "hw1 iOS 2Tests" */ = {
+		4C89D13E2DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "Algorithm ViewerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C89D13F2DAF29ED002D6723 /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C89D1412DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "hw1 iOS 2UITests" */ = {
+		4C89D1412DAF29ED002D6723 /* Build configuration list for PBXNativeTarget "Algorithm ViewerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C89D1422DAF29ED002D6723 /* Debug */,
