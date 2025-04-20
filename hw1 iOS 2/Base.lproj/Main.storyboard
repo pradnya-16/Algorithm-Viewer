@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hw1_iOS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1I-ZD-v7v">
+                                <rect key="frame" x="16" y="97" width="103" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sort"/>
+                                <connections>
+                                    <action selector="sortTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4tW-fe-wKF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N =" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzJ-qo-7sm">
+                                <rect key="frame" x="185" y="105" width="27" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="RZi-75-oOQ">
+                                <rect key="frame" x="232" y="100" width="192" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="YyV-K2-Vxf"/>
+                                    <constraint firstAttribute="width" constant="192" id="pFY-Vf-n9J"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="16"/>
+                                    <segment title="32"/>
+                                    <segment title="48"/>
+                                    <segment title="64"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VmA-et-McX">
+                                <rect key="frame" x="16" y="167" width="408" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title=""/>
+                                    <segment title=""/>
+                                </segments>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhW-9f-UrV" customClass="ChartView" customModule="hw1_iOS_2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="583" width="408" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="XRI-io-WNU"/>
+                                    <constraint firstAttribute="width" constant="408" id="mOX-fk-zdA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HZj-90-GBw" customClass="ChartView" customModule="hw1_iOS_2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="232" width="408" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="408" id="9Bs-04-hIh"/>
+                                    <constraint firstAttribute="height" constant="240" id="YUY-7U-TvV"/>
+                                </constraints>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P5R-Fu-4Hz">
+                                <rect key="frame" x="16" y="518" width="408" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title=""/>
+                                    <segment title=""/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RZi-75-oOQ" secondAttribute="trailing" constant="16" id="4fa-JL-j1g"/>
+                            <constraint firstItem="HZj-90-GBw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8QF-wB-BZE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HZj-90-GBw" secondAttribute="trailing" constant="16" id="8dH-0A-aFa"/>
+                            <constraint firstItem="P5R-Fu-4Hz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9zD-J0-pnu"/>
+                            <constraint firstItem="HZj-90-GBw" firstAttribute="top" secondItem="VmA-et-McX" secondAttribute="bottom" constant="34" id="G6J-by-Fa0"/>
+                            <constraint firstItem="RzJ-qo-7sm" firstAttribute="leading" secondItem="w1I-ZD-v7v" secondAttribute="trailing" constant="66" id="HhK-mG-Sp3"/>
+                            <constraint firstItem="VmA-et-McX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Iiw-xV-Knh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P5R-Fu-4Hz" secondAttribute="trailing" constant="16" id="LuB-LJ-3MT"/>
+                            <constraint firstItem="RZi-75-oOQ" firstAttribute="leading" secondItem="RzJ-qo-7sm" secondAttribute="trailing" constant="20" id="MPG-X8-j84"/>
+                            <constraint firstItem="P5R-Fu-4Hz" firstAttribute="top" secondItem="HZj-90-GBw" secondAttribute="bottom" constant="46" id="QXR-UF-DI0"/>
+                            <constraint firstItem="bhW-9f-UrV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="S68-QQ-tVY"/>
+                            <constraint firstItem="bhW-9f-UrV" firstAttribute="top" secondItem="P5R-Fu-4Hz" secondAttribute="bottom" constant="34" id="SjM-Lb-2lM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bhW-9f-UrV" secondAttribute="trailing" constant="16" id="VDk-Tb-aWU"/>
+                            <constraint firstItem="w1I-ZD-v7v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="b3W-k7-kSA"/>
+                            <constraint firstItem="RZi-75-oOQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="38" id="k8D-2g-Wrd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VmA-et-McX" secondAttribute="trailing" constant="16" id="mQU-oT-G6F"/>
+                            <constraint firstItem="VmA-et-McX" firstAttribute="top" secondItem="w1I-ZD-v7v" secondAttribute="bottom" constant="35" id="qbZ-Uo-BWj"/>
+                            <constraint firstItem="w1I-ZD-v7v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="spT-Xs-IXS"/>
+                            <constraint firstItem="RzJ-qo-7sm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="uj3-wX-TN3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="algorithmPicker1" destination="VmA-et-McX" id="FfH-Rh-vqp"/>
+                        <outlet property="algorithmPicker2" destination="P5R-Fu-4Hz" id="JPz-fh-0bp"/>
+                        <outlet property="chartView1" destination="HZj-90-GBw" id="ODT-hw-BOJ"/>
+                        <outlet property="chartView2" destination="bhW-9f-UrV" id="VMW-Sq-auK"/>
+                        <outlet property="sampleSizePicker" destination="RZi-75-oOQ" id="GhU-Tb-KiE"/>
+                        <outlet property="sortButton" destination="w1I-ZD-v7v" id="3dO-qB-yBA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="3.1380753138075317"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
